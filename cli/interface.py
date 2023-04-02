@@ -3,7 +3,7 @@ import os
 import time
 from colorama import Fore
 
-MAIN_DESCRIPTION = "Press \"W\", \"E\" keys to change menu options. \"Enter\" to select an option and \"Esc\" to close the programm."
+MAIN_DESCRIPTION = "Press \"W\", \"E\" keys to change menu options. \"Enter\" to select an option and \"Esc\" to close the\n programm."
 ENDL = "\n"
 SPACE = " "
 
@@ -20,6 +20,8 @@ class MainMenu:
             print(SPACE + Fore.YELLOW + 'Element 5')
             element_desc = "That's doing something for anything..."
             print(ENDL + ENDL + SPACE + Fore.YELLOW + 'Option\'s description: ' + element_desc)
+            debag = "Some info..."
+            print(ENDL + ENDL + SPACE + "Debag: {}".format(debag))
             time.sleep(1)
             
     
