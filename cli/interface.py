@@ -3,7 +3,7 @@ import os
 import time
 from colorama import Fore
 
-MAIN_DESCRIPTION = "Press W, E keys to change menu options. Enter to select an option and Esc to close the programm."
+MAIN_DESCRIPTION = "Press \"W\", \"E\" keys to change menu options. \"Enter\" to select an option and \"Esc\" to close the programm."
 ENDL = "\n"
 SPACE = " "
 
