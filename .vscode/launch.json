@@ -1,0 +1,31 @@
+{
+
+    "version": "0.2.0",
+    
+    "configurations": [
+    
+        {
+    
+            "name": "Python: Current File",
+            
+            "type": "python",
+            
+            "request": "launch",
+            
+            "stopOnEntry": false,
+            
+            "python": "${command:python.interpreterPath}",
+            
+            "program": "${file}",
+            
+            "console": "externalTerminal",
+            
+            "redirectOutput": true,
+            
+            "envFile": "${workspaceFolder}/.env"
+    
+        }
+    
+    ]
+    
+}
