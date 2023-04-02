@@ -6,7 +6,7 @@
     
         {
     
-            "name": "Python: Current File",
+            "name": "Python",
             
             "type": "python",
             
@@ -19,8 +19,6 @@
             "program": "${file}",
             
             "console": "externalTerminal",
-            
-            "redirectOutput": true,
             
             "envFile": "${workspaceFolder}/.env"
     
